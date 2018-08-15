@@ -87,7 +87,7 @@ class Trezor extends Component {
                 <FailedConnectionMessage>
                   {lang.t('message.failed_trezor_connection')}
                 </FailedConnectionMessage>
-                <Button color="grey" onClick={this.connectTrezor}>
+                <Button color="blue" onClick={this.connectTrezor}>
                   {lang.t('button.try_again')}
                 </Button>
               </StyledCardContainer>
